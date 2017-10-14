@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace raupjc_hw1
+namespace raupjchw1
 {
     class GenericListEnumerator<X> : IEnumerator<X>
     {

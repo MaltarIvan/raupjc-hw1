@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace raupjc_hw1
+namespace raupjchw1
 {
     public interface IGenericList <X> : IEnumerable <X>
     {
