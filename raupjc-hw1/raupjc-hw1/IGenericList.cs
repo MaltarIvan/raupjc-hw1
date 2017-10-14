@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace raupjc_hw1
 {
-    public interface IGenericList <X>
+    public interface IGenericList <X> : IEnumerable <X>
     {
         /// <summary >
         /// Adds an item to the collection .
