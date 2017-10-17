@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace raupjchw1
 {
-    class IntegerList : IIntegerList
+    public class IntegerList : IIntegerList
     {
         private int[] _internalStorage;
 
